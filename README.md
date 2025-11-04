@@ -14,3 +14,22 @@
 
 ## 📸 스크린샷
 ![게임 실행 화면](./image.png)
+
+---
+
+# Penalty Game
+
+A simple web-based game to decide a penalty. (Includes Ladder Game and Roulette)
+
+## 🛠 Tech Stack
+- HTML
+- CSS
+- JavaScript
+
+## 🚀 How to Run
+
+You can run it immediately by clicking the link in the description (GitHub Pages),
+or by downloading this repository and opening the `index.html` file in your browser.
+
+## 📸 Screenshot
+![게임 실행 화면](./image.png)
