@@ -168,3 +168,22 @@ button:disabled { opacity: 0.6; cursor: not-allowed; filter: none; }
 .bottom-row input.finished {
     background: #fffbe6; border-color: #ffe58f; font-weight: bold;
 }
+
+/* 모바일 화면 깨짐 방지 */
+@media screen and (max-width: 768px) {
+    .ladder-app, .roulette-board-wrapper {
+        width: 100%;
+        max-width: 100%;
+        box-shadow: none;
+    }
+    /* 사다리 게임 가로 스크롤 */
+    #game-board-content {
+        width: 100%;
+        overflow-x: auto;
+    }
+    /* 룰렛 크기 자동 조절 */
+    .roulette-board-wrapper {
+        height: auto;
+        aspect-ratio: 1/1;
+    }
+}
